@@ -92,7 +92,7 @@ export const Content70DataSource = {
             xs: 24,
             children: (
               <span>
-                Official website: fovefund.xyz <br/>
+                Official website: dovefund.xyz <br/>
                 Official email: dovefunddof@gmail.com<br/>
                 Official Twitter: twitter.com/dof_ coin_<br/>
                 Official telegram: t.me/dovefundcn<br/>
@@ -198,8 +198,7 @@ export const Content70DataSource = {
     ],
   },
 };
-
-export const Content70DataSource2 = {
+export const Content70DataSource3 = {
   wrapper: { className: 'home-page-wrapper content7-wrapper' },
   page: { className: 'home-page content7' },
   OverPack: {},
@@ -208,10 +207,10 @@ export const Content70DataSource2 = {
     children: [
       {
         name: 'title',
-        children: '落地项目',
+        children: 'Asset Supervision',
         className: 'title-h1',
       },
-      { name: 'content', children: '公益账户锁定代币30％社区及平台投票售卖及援助资金落地邀请平台组织一起监管确保资金安全性及项目实际落地性。' },
+      { name: 'content', children: 'The public welfare account locks 30% of the token, the community and platform vote for the sale and the landing of the aid fund, and invites the platform organization to supervise together to ensure the fund security and the actual landing of the project.' },
     ],
   },
   tabsWrapper: { className: 'content7-tabs-wrapper' },
@@ -221,7 +220,7 @@ export const Content70DataSource2 = {
         name: 'block0',
         tag: {
           className: 'content7-tag',
-          text: { children: '投票结果公示', className: 'content7-tag-name' },
+          text: { children: 'Asset Supervision', className: 'content7-tag-name' },
           icon: { children: 'mobile' },
         },
         content: {
@@ -232,20 +231,20 @@ export const Content70DataSource2 = {
             xs: 24,
             children: (
               <span>
-                <h3>技术</h3>
+                <h3>Regulators******** </h3>
                 <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+                Regulators********
                 </p>
                 <br />
-                <h3>融合</h3>
+                <h3>30% (300000000 tokens) of regulatory project  </h3>
                 <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
+                Supervision project DOF Foundation
                 </p>
                 <br />
                 <h3>
-                  开放
+                Wallet address publicity and sales ratio
                 </h3>
-                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                Regulatory amount:***
               </span>
             ),
           },
@@ -258,88 +257,88 @@ export const Content70DataSource2 = {
           },
         },
       },
-      {
-        name: 'block1',
-        tag: {
-          className: 'content7-tag',
-          icon: { children: 'tablet' },
-          text: { className: 'content7-tag-name', children: '售卖结果公示' },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>
-                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
-          img: {
-            className: 'content7-img',
-            md: 10,
-            xs: 24,
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
-          },
-        },
-      },
-      {
-        name: 'block2',
-        tag: {
-          className: 'content7-tag',
-          text: { children: '项目援助公示', className: 'content7-tag-name' },
-          icon: { children: 'laptop' },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>
-                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
-          img: {
-            className: 'content7-img',
-            md: 10,
-            xs: 24,
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
-          },
-        },
-      },
+      // {
+      //   name: 'block1',
+      //   tag: {
+      //     className: 'content7-tag',
+      //     icon: { children: 'tablet' },
+      //     text: { className: 'content7-tag-name', children: 'TABLET' },
+      //   },
+      //   content: {
+      //     className: 'content7-content',
+      //     text: {
+      //       className: 'content7-text',
+      //       md: 14,
+      //       xs: 24,
+      //       children: (
+      //         <span>
+      //           <h3>技术</h3>
+      //           <p>
+      //             丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+      //           </p>
+      //           <br />
+      //           <h3>融合</h3>
+      //           <p>
+      //             解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
+      //           </p>
+      //           <br />
+      //           <h3>
+      //             开放
+      //           </h3>
+      //           符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+      //         </span>
+      //       ),
+      //     },
+      //     img: {
+      //       className: 'content7-img',
+      //       md: 10,
+      //       xs: 24,
+      //       children:
+      //         'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+      //     },
+      //   },
+      // },
+      // {
+      //   name: 'block2',
+      //   tag: {
+      //     className: 'content7-tag',
+      //     text: { children: 'DESKTOP', className: 'content7-tag-name' },
+      //     icon: { children: 'laptop' },
+      //   },
+      //   content: {
+      //     className: 'content7-content',
+      //     text: {
+      //       className: 'content7-text',
+      //       md: 14,
+      //       xs: 24,
+      //       children: (
+      //         <span>
+      //           <h3>技术</h3>
+      //           <p>
+      //             丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+      //           </p>
+      //           <br />
+      //           <h3>融合</h3>
+      //           <p>
+      //             解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
+      //           </p>
+      //           <br />
+      //           <h3>
+      //             开放
+      //           </h3>
+      //           符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+      //         </span>
+      //       ),
+      //     },
+      //     img: {
+      //       className: 'content7-img',
+      //       md: 10,
+      //       xs: 24,
+      //       children:
+      //         'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+      //     },
+      //   },
+      // },
     ],
   },
 };

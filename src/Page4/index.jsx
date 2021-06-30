@@ -9,7 +9,7 @@ import Content7 from './Content7';
 import {
   Content00DataSource,
   Content70DataSource,
-  Content70DataSource2
+  Content70DataSource3
 } from './data.source_en';
 
 import './less/antMotionStyle.less';
@@ -56,6 +56,12 @@ export default class Home extends React.Component {
       //   dataSource={Content00DataSource}
       //   isMobile={this.state.isMobile}
       // />,
+      <Content7
+        id="Content7_1"
+        key="Content7_1"
+        dataSource={Content70DataSource3}
+        isMobile={this.state.isMobile}
+      />,
       <Content7
         id="Content7_0"
         key="Content7_0"
