@@ -12,7 +12,7 @@ export const Nav00DataSource = {
     className: 'header0-menu',
     children: [
       { name: 'item0', a: { children: 'Home', href: '/' } },
-      { name: 'item1', a: { children: 'safety assessment', href: '/page2' } },
+      { name: 'item1', a: { children: 'Safety assessment', href: '/page2' } },
       { name: 'item2', a: { children: 'Project safety assessment', href: '/page3' } },
       { name: 'item3', a: { children: 'How to contact us', href: '/page4' } },
     ],

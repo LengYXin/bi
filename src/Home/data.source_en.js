@@ -247,7 +247,7 @@ export const Content130DataSource2 = {
         name: 'content2',
         children: <div>
           Handling charge 0.8% after holding currency and not circulating during airdrop and pre-sale
-          <div> Pre sale automatic wallet address: 0xab88d95a5419b3cdcd763e276c416c69d591f4aeOnly </div>
+          <div> Pre sale automatic wallet address: 0xab88d95a5419B3CCcd763e276c416c69D591f4AE </div>
           <div>BNB payment will be accepted during the pre-sale period!</div>
         </div> ,
         className: 'title-content',
@@ -291,7 +291,7 @@ export const Content130DataSource4 = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: 'ecosystem', className: 'title-h1' },
+      { name: 'title', children: 'Ecosystem', className: 'title-h1' },
       {
         name: 'content',
         children: (
@@ -330,12 +330,12 @@ export const Content130DataSource5 = {
         name: 'content',
         children: (
           <div>
-            1 Project information collection - Community voting aid objects - aid amount voting (DOF fund payment / community donation payment) - docking with donors / institutions / regions - project implementation<br />
+            1. Project information collection - Community voting aid objects - aid amount voting (DOF fund payment / community donation payment) - docking with donors / institutions / regions - project implementation<br />
 
-            2 declaration of donor information - authenticity of foundation audit - launch of official website - Community voting aid method - DOF fund counterpart / institution / Region - Implementation of project implementation<br />
+            2. declaration of donor information - authenticity of foundation audit - launch of official website - Community voting aid method - DOF fund counterpart / institution / Region - Implementation of project implementation<br />
 
-            3 Project owner application - Submission materials - DOF review materials - risk assessment - investment assessment - investment grade content publicity - user reference investment<br />
-            4 The recipient provides the information of the project, and the DOF provides the audit and help, and publicizes it with the official website for other users to check, so as to prevent the loss of assets.
+            3. Project owner application - Submission materials - DOF review materials - risk assessment - investment assessment - investment grade content publicity - user reference investment<br />
+            4. The recipient provides the information of the project, and the DOF provides the audit and help, and publicizes it with the official website for other users to check, so as to prevent the loss of assets.
           </div>
         ),
         className: 'title-content',
