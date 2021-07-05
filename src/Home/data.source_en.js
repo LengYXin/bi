@@ -18,7 +18,7 @@ export const Banner00DataSource = {
       </span>
     ),
   },
-  button: { className: 'banner0-button', children: '' },
+  button: { className: 'banner0-button', children: 'PPT' },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },

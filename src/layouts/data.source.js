@@ -12,7 +12,7 @@ export const Nav00DataSource = {
     className: 'header0-menu',
     children: [
       { name: 'item0', a: { children: 'Home', href: '/' } },
-      { name: 'item1', a: { children: 'Safety assessment', href: '/page2' } },
+      { name: 'item1', a: { children: 'Investment and regulation', href: '/page2' } },
       { name: 'item2', a: { children: 'Project safety assessment', href: '/page3' } },
       { name: 'item3', a: { children: 'How to contact us', href: '/page4' } },
     ],
@@ -32,7 +32,7 @@ export const Footer00DataSource = {
         </div> */}
         <div>
         DOF (dove Fund) public welfare investment without borders has direction
-        Unique contract address：0x1fd88d2c00fb3b18ba1dc6aadc9272c1529d8cfe
+        Unique contract address：0xab88d95a5419B3CCcd763e276c416c69D591f4AE
         Network: bep20 (BSC) symbol: DOF
         Official website address:  <a href="dovefund.xyz ">dovefund.xyz </a>
           <a href="https://t.me/dovefundCN0.plus/dovefundCN">Telegraph group </a> 

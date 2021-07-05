@@ -29,9 +29,9 @@ class Banner extends React.PureComponent {
           <div key="content" {...dataSource.content}>
             {dataSource.content.children}
           </div>
-          {/* <Button ghost key="button" {...dataSource.button}>
+          <Button onClick={()=>window.open('/test.pdf')} ghost key="button" {...dataSource.button}>
             {dataSource.button.children}
-          </Button> */}
+          </Button>
         </QueueAnim>
         <TweenOne
           animation={{
