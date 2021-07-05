@@ -193,126 +193,394 @@ export const Content70DataSource = {
   },
 };
 export const Content130DataSource = {
-  OverPack: {
-    className:
-      'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
-    playScale: 0.3,
+ 
+  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
   },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      { name: 'title', children: 'Project application scenarios', className: 'title-h1' },
-      {
-        name: 'content',
-        children: (
-          <div>
-            DOF (dovefund) will provide a complete set of public welfare assistance programs for the global disaster stricken areas, the affected people and the people in need of help. The community project shows that the community members will vote selectively on the project to determine the areas, people or things we need to help and the amount of assistance. Finally, the DOF foundation will complete the implementation of the assistance project. At the same time, we will provide community project applications for the people in need of help. Community members will vote for the projects on the shelves and vote again or donate the relevant amount of assistance. Finally, the DOF foundation will complete the implementation of the assistance projects. Public welfare has no borders. DOF plans to connect with global public welfare organizations to realize information sharing, aiming at establishing an open and sustainable public welfare token economy system. The risk and investment evaluation of DOF project is an in-depth evaluation of the risk, assets, background, mechanism and sustainability of the global virtual token project. Level 1 and level 2 projects can make risk investment grade reports and suggestions through audit standards, and the project risk grade will be adjusted from time to time to provide more powerful choices for investment users. All major project parties are welcome to contact DOF project team to provide effective data and information for risk audit publicity, so that more investors can understand your project, and users can prevent asset loss at the same time!
-            Project application scenarios
-          </div>
-        ),
-        className: 'title-content',
-      },
-      // {
-      //   name: 'content2',
-      //   children: '现场问诊，为你答疑解难',
-      //   className: 'title-content',
-      // },
-    ],
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  title: { className: 'content1-title', children: 'Project application scenarios' },
+  content: {
+    className: 'content1-content',
+    children:
+      `  DOF (dovefund) will provide a complete set of public welfare assistance programs for the global disaster stricken areas, the affected people and the people in need of help. The community project shows that the community members will vote selectively on the project to determine the areas, people or things we need to help and the amount of assistance. Finally, the DOF foundation will complete the implementation of the assistance project. At the same time, we will provide community project applications for the people in need of help. Community members will vote for the projects on the shelves and vote again or donate the relevant amount of assistance. Finally, the DOF foundation will complete the implementation of the assistance projects. Public welfare has no borders. DOF plans to connect with global public welfare organizations to realize information sharing, aiming at establishing an open and sustainable public welfare token economy system. The risk and investment evaluation of DOF project is an in-depth evaluation of the risk, assets, background, mechanism and sustainability of the global virtual token project. Level 1 and level 2 projects can make risk investment grade reports and suggestions through audit standards, and the project risk grade will be adjusted from time to time to provide more powerful choices for investment users. All major project parties are welcome to contact DOF project team to provide effective data and information for risk audit publicity, so that more investors can understand your project, and users can prevent asset loss at the same time!
+      Project application scenarios`,
   },
 };
+
 export const Content130DataSource2 = {
-  OverPack: {
-    className:
-      'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
-    playScale: 0.3,
-  },
+  // OverPack: {
+  //   className:
+  //     'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
+  //   playScale: 0.3,
+  // },
+  // titleWrapper: {
+  //   className: 'title-wrapper',
+  //   children: [
+  //     { name: 'title', children: 'Token distribution', className: 'title-h1' },
+  //     {
+  //       name: 'content',
+  //       children: (
+  //         <div>
+  //           Total pre-sale: 180000000DOF<br />
+  //           Pre sale unit price:<br />
+  //           One stage    1BNB = 500000DOF<br />
+  //           Phase 2        1BNB = 450000DOF<br />
+  //           Three stage 1BNB = 400000DOF<br />
+  //         </div>
+  //       ),
+  //       className: 'title-content',
+  //     },
+  //     {
+  //       name: 'content2',
+  //       children: <div>
+  //         Handling charge 0.8% after holding currency and not circulating during airdrop and pre-sale
+  //         <div> Pre sale automatic wallet address: 0xab88d95a5419B3CCcd763e276c416c69D591f4AE </div>
+  //         <div>BNB payment will be accepted during the pre-sale period!</div>
+  //       </div> ,
+  //       className: 'title-content',
+  //     },
+  //   ],
+  // },
+  wrapper: { className: 'home-page-wrapper content3-wrapper' },
+  page: { className: 'home-page content3' },
+  OverPack: { playScale: 0.3 },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: 'Token distribution', className: 'title-h1' },
       {
-        name: 'content',
-        children: (
-          <div>
-            Total pre-sale: 180000000DOF<br />
-            Pre sale unit price:<br />
-            One stage    1BNB = 500000DOF<br />
-            Phase 2        1BNB = 450000DOF<br />
-            Three stage 1BNB = 400000DOF<br />
-          </div>
-        ),
-        className: 'title-content',
+        name: 'title',
+        children: 'Token distribution',
+        className: 'title-h1',
+      },
+      // {
+      //   name: 'content',
+      //   className: 'title-content',
+      //   children: '基于阿里云强大的基础资源',
+      // },
+    ],
+  },
+  block: {
+    className: 'content3-block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'content3-block',
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: 'content3-icon',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+          },
+          textWrapper: { className: 'content3-text' },
+          title: { className: 'content3-title', children: 'Total pre-sale' },
+          content: {
+            className: 'content3-content',
+            children:
+              '180000000DOF',
+          },
+        },
       },
       {
-        name: 'content2',
-        children: <div>
-          Handling charge 0.8% after holding currency and not circulating during airdrop and pre-sale
-          <div> Pre sale automatic wallet address: 0xab88d95a5419B3CCcd763e276c416c69D591f4AE </div>
-          <div>BNB payment will be accepted during the pre-sale period!</div>
-        </div> ,
-        className: 'title-content',
+        name: 'block1',
+        className: 'content3-block',
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: 'content3-icon',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          },
+          textWrapper: { className: 'content3-text' },
+          title: { className: 'content3-title', children: 'Pre sale ' },
+          content: {
+            className: 'content3-content',
+            children:
+              'unit price',
+          },
+        },
       },
+      {
+        name: 'block2',
+        className: 'content3-block',
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: 'content3-icon',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+          },
+          textWrapper: { className: 'content3-text' },
+          title: { className: 'content3-title', children: 'One stage' },
+          content: {
+            className: 'content3-content',
+            children:
+              '1BNB = 500000DOF',
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'content3-block',
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: 'content3-icon',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+          },
+          textWrapper: { className: 'content3-text' },
+          title: { className: 'content3-title', children: 'Phase 2' },
+          content: {
+            className: 'content3-content',
+            children:
+              '1BNB = 450000DOF',
+          },
+        },
+      },
+      {
+        name: 'block4',
+        className: 'content3-block',
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: 'content3-icon',
+            children:
+              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+          },
+          textWrapper: { className: 'content3-text' },
+          title: { className: 'content3-title', children: 'Three stage' },
+          content: {
+            className: 'content3-content',
+            children:
+              '1BNB = 400000DOF',
+          },
+        },
+      },
+      // {
+      //   name: 'block5',
+      //   className: 'content3-block',
+      //   md: 8,
+      //   xs: 24,
+      //   children: {
+      //     icon: {
+      //       className: 'content3-icon',
+      //       children:
+      //         'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
+      //     },
+      //     textWrapper: { className: 'content3-text' },
+      //     title: { className: 'content3-title', children: '大数据' },
+      //     content: {
+      //       className: 'content3-content',
+      //       children:<div>
+      //                Handling charge 0.8% after holding currency and not circulating during airdrop and pre-sale
+      //                <div> Pre sale automatic wallet address: 0xab88d95a5419B3CCcd763e276c416c69D591f4AE </div>
+      //                <div>BNB payment will be accepted during the pre-sale period!</div>
+      //              </div>,
+      //     },
+      //   },
+      // },
     ],
   },
 };
-export const Content130DataSource3 = {
-  OverPack: {
-    className:
-      'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
-    playScale: 0.3,
+export const Content130DataSource22 = {
+  wrapper: { className: 'home-page-wrapper pricing0-wrapper' },
+  OverPack: { playScale: 0.3, className: 'home-page pricing0' },
+  imgWrapper: { className: 'pricing0-img-wrapper', md: 12, xs: 24 },
+  img: {
+    className: 'pricing0-img',
+    name: 'image',
+    children:
+      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*OnyWT4Nsxy0AAAAAAAAAAABjARQnAQ',
   },
-  titleWrapper: {
-    className: 'title-wrapper',
+  childWrapper: {
+    className: 'pricing0-text-wrapper',
+    md: 12,
+    xs: 24,
     children: [
-      { name: 'title', children: 'Lock your wallet', className: 'title-h1' },
+      {
+        name: 'title',
+        children: 'Handling charge 0.8% after holding currency and not circulating during airdrop and pre-sale',
+        className: 'pricing0-title',
+      },
       {
         name: 'content',
-        children: (
-          <div>
-            30% of the locked tokens are sold by community voting, and all of them are donated to the charity target in need of help in the first community voting volume. The single voting volume is no more than 0.5% of the total locked tokens, which is determined by the fund market price. Bonus with currency: 0.8% of transaction fee is used for DOF fund. If DOF fund invests all transaction fee users in virtual investment or physical project, and the currency holding is higher than 30 days, users will get BNB income bonus. We firmly believe that people who like to do public welfare will be rewarded.
-          </div>
-        ),
-        className: 'title-content',
+        children:
+          'Pre sale automatic wallet address: 0xab88d95a5419B3CCcd763e276c416c69D591f4AE',
+        className: 'pricing0-content',
       },
-      // {
-      //   name: 'content2',
-      //   children: '现场问诊，为你答疑解难',
-      //   className: 'title-content',
-      // },
+      // { name: 'pricing', children: '¥2,200', className: 'pricing0-pricing' },
+      {
+        name: 'content',
+        children: 'BNB payment will be accepted during the pre-sale period!',
+      },
     ],
+  },
+}
+export const Content130DataSource3 = {
+  // OverPack: {
+  //   className:
+  //     'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
+  //   playScale: 0.3,
+  // },
+  // titleWrapper: {
+  //   className: 'title-wrapper',
+  //   children: [
+  //     { name: 'title', children: 'Lock your wallet', className: 'title-h1' },
+  //     {
+  //       name: 'content',
+  //       children: (
+  //         <div>
+  //           30% of the locked tokens are sold by community voting, and all of them are donated to the charity target in need of help in the first community voting volume. The single voting volume is no more than 0.5% of the total locked tokens, which is determined by the fund market price. Bonus with currency: 0.8% of transaction fee is used for DOF fund. If DOF fund invests all transaction fee users in virtual investment or physical project, and the currency holding is higher than 30 days, users will get BNB income bonus. We firmly believe that people who like to do public welfare will be rewarded.
+  //         </div>
+  //       ),
+  //       className: 'title-content',
+  //     },
+  //     // {
+  //     //   name: 'content2',
+  //     //   children: '现场问诊，为你答疑解难',
+  //     //   className: 'title-content',
+  //     // },
+  //   ],
+  // },
+  wrapper: { className: 'home-page-wrapper content2-wrapper' },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
+  },
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: { className: 'content2-title', children: 'Lock your wallet' },
+  content: {
+    className: 'content2-content',
+    children:
+      `30% of the locked tokens are sold by community voting, and all of them are donated to the charity target in need of help in the first community voting volume. The single voting volume is no more than 0.5% of the total locked tokens, which is determined by the fund market price. Bonus with currency: 0.8% of transaction fee is used for DOF fund. If DOF fund invests all transaction fee users in virtual investment or physical project, and the currency holding is higher than 30 days, users will get BNB income bonus. We firmly believe that people who like to do public welfare will be rewarded.
+      `,
   },
 };
 export const Content130DataSource4 = {
-  OverPack: {
-    className:
-      'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
-    playScale: 0.3,
-  },
+  // OverPack: {
+  //   className:
+  //     'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
+  //   playScale: 0.3,
+  // },
+  // titleWrapper: {
+  //   className: 'title-wrapper',
+  //   children: [
+  //     { name: 'title', children: 'Ecosystem', className: 'title-h1' },
+  //     {
+  //       name: 'content',
+  //       children: (
+  //         <div>
+  //           1.0.8% commission fee will be charged for each transaction, which will be used for fund reserve of DOF fund and project investment fund reserve for donation project investment of community voting foundation. We will make virtual investment in the name of DOF fund
+  //           <br />
+
+  //           2.The profit and loss of the virtual investment of the investment dividend fund will be announced in the community every 15 days, and the dividend standard is that users holding money for 30 consecutive days or more will pay BNB / usdt dividends manually according to the amount of money they hold. <br />
+
+  //           3.After adding liquidity to the fund as a community reserve, the fund will broadcast the amount daily. The exchange will invite the exchange and the platform to supervise and broadcast daily to prevent fraud. <br />
+
+  //           4.DOF accepts the information, security review report, capital reserve, currency holding, transaction flow ratio, 15 day transaction volume, project progress and project development plan submitted by all market project parties for in-depth evaluation, and publishes the investment security level, so that users can have good reference in the investment process and prevent asset loss, Let the project side of the project at a glance show to users, convenient for project promotion and sales.
+  //         </div>
+  //       ),
+  //       className: 'title-content',
+  //     },
+  //     // {
+  //     //   name: 'content2',
+  //     //   children: '现场问诊，为你答疑解难',
+  //     //   className: 'title-content',
+  //     // },
+  //   ],
+  // },
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  OverPack: { className: 'home-page content6' },
+  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      { name: 'title', children: 'Ecosystem', className: 'title-h1' },
       {
-        name: 'content',
-        children: (
-          <div>
-            1.0.8% commission fee will be charged for each transaction, which will be used for fund reserve of DOF fund and project investment fund reserve for donation project investment of community voting foundation. We will make virtual investment in the name of DOF fund
-            <br />
-
-            2.The profit and loss of the virtual investment of the investment dividend fund will be announced in the community every 15 days, and the dividend standard is that users holding money for 30 consecutive days or more will pay BNB / usdt dividends manually according to the amount of money they hold. <br />
-
-            3.After adding liquidity to the fund as a community reserve, the fund will broadcast the amount daily. The exchange will invite the exchange and the platform to supervise and broadcast daily to prevent fraud. <br />
-
-            4.DOF accepts the information, security review report, capital reserve, currency holding, transaction flow ratio, 15 day transaction volume, project progress and project development plan submitted by all market project parties for in-depth evaluation, and publishes the investment security level, so that users can have good reference in the investment process and prevent asset loss, Let the project side of the project at a glance show to users, convenient for project promotion and sales.
-          </div>
-        ),
-        className: 'title-content',
+        name: 'title',
+        children: 'Ecosystem',
+        className: 'title-h1',
       },
       // {
-      //   name: 'content2',
-      //   children: '现场问诊，为你答疑解难',
+      //   name: 'content',
       //   className: 'title-content',
+      //   children: '基于阿里云计算强大的基础资源',
       // },
+    ],
+  },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    className: 'content6-img',
+    xs: 24,
+    md: 14,
+  },
+  block: {
+    children: [
+      {
+        name: 'block0',
+        img: {
+          children:
+            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          className: 'content6-icon',
+        },
+        title: { className: 'content6-title', children: '' },
+        content: {
+          className: 'content6-content',
+          children:
+            '0.8% commission fee will be charged for each transaction, which will be used for fund reserve of DOF fund and project investment fund reserve for donation project investment of community voting foundation. We will make virtual investment in the name of DOF fund',
+        },
+      },
+      {
+        name: 'block1',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+        },
+        title: { className: 'content6-title', children: '' },
+        content: {
+          className: 'content6-content',
+          children:
+            'The profit and loss of the virtual investment of the investment dividend fund will be announced in the community every 15 days, and the dividend standard is that users holding money for 30 consecutive days or more will pay BNB / usdt dividends manually according to the amount of money they hold.',
+        },
+      },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: { className: 'content6-title', children: '' },
+        content: {
+          className: 'content6-content',
+          children:
+            'After adding liquidity to the fund as a community reserve, the fund will broadcast the amount daily. The exchange will invite the exchange and the platform to supervise and broadcast daily to prevent fraud.',
+        },
+      },
+      {
+        name: 'block3',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: { className: 'content6-title', children: '' },
+        content: {
+          className: 'content6-content',
+          children:
+            'DOF accepts the information, security review report, capital reserve, currency holding, transaction flow ratio, 15 day transaction volume, project progress and project development plan submitted by all market project parties for in-depth evaluation, and publishes the investment security level, so that users can have good reference in the investment process and prevent asset loss, Let the project side of the project at a glance show to users, convenient for project promotion and sales.',
+        },
+      },
     ],
   },
 };

@@ -5,9 +5,13 @@ import { enquireScreen } from "enquire-js";
 
 import Banner0 from "./Banner0";
 import Content0 from "./Content0";
+import Content1 from "./Content1";
+import Content3 from "./Content3";
 import Content7 from "./Content7";
 import Content13 from "./Content13";
-import Content12 from "./Content12";
+import Feature2 from "./Feature2";
+import Feature4 from "./Feature4";
+import Pricing0 from "./Pricing0";
 
 import {
   Banner00DataSource,
@@ -15,6 +19,7 @@ import {
   Content70DataSource,
   Content130DataSource,
   Content130DataSource2,
+  Content130DataSource22,
   Content130DataSource3,
   Content130DataSource4,
   Content130DataSource5,
@@ -77,25 +82,31 @@ export default class Home extends React.Component {
         dataSource={Content70DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content13
+      <Content1
         id="Content13_0"
         key="Content13_0"
         dataSource={Content130DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content13
+      <Content3
         id="Content13_01"
         key="Content13_01"
         dataSource={Content130DataSource2}
         isMobile={this.state.isMobile}
       />,
-      <Content13
+      <Pricing0
+        id="Content13_011"
+        key="Content13_011"
+        dataSource={Content130DataSource22}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature2
         id="Content13_03"
         key="Content13_03"
         dataSource={Content130DataSource3}
         isMobile={this.state.isMobile}
       />,
-      <Content13
+      <Feature4
         id="Content13_04"
         key="Content13_04"
         dataSource={Content130DataSource4}
@@ -114,11 +125,11 @@ export default class Home extends React.Component {
         isMobile={this.state.isMobile}
       />,
       <Content13
-      id="Content13_07"
-      key="Content13_07"
-      dataSource={Content130DataSource7}
-      isMobile={this.state.isMobile}
-    />,
+        id="Content13_07"
+        key="Content13_07"
+        dataSource={Content130DataSource7}
+        isMobile={this.state.isMobile}
+      />,
       // <Content12
       //   id="Content12_0"
       //   key="Content12_0"
