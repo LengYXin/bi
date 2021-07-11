@@ -321,7 +321,8 @@ export const Content130DataSource2 = {
           content: {
             className: 'content3-content',
             children:
-              '1BNB = 500000DOF',
+              // '1BNB = 500000DOF',
+              'End',
           },
         },
       },
@@ -341,7 +342,7 @@ export const Content130DataSource2 = {
           content: {
             className: 'content3-content',
             children:
-              '1BNB = 450000DOF',
+              '1BNB = 1800000DOF',
           },
         },
       },
@@ -361,7 +362,7 @@ export const Content130DataSource2 = {
           content: {
             className: 'content3-content',
             children:
-              '1BNB = 400000DOF',
+              '1BNB = 1280000DOF',
           },
         },
       },
