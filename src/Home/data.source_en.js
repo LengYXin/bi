@@ -342,7 +342,8 @@ export const Content130DataSource2 = {
           content: {
             className: 'content3-content',
             children:
-              '1BNB = 1800000DOF',
+              // '1BNB = 1800000DOF',
+              'End',
           },
         },
       },
@@ -362,7 +363,7 @@ export const Content130DataSource2 = {
           content: {
             className: 'content3-content',
             children:
-              '1BNB = 1280000DOF',
+              '1BNB = 1450000DOF',
           },
         },
       },
@@ -422,6 +423,10 @@ export const Content130DataSource22 = {
       {
         name: 'content',
         children: 'BNB payment will be accepted during the pre-sale period!',
+      },
+      {
+        name: 'content',
+        children: 'Dear user, DOF will log in to pancake at 15:00 on July 20, 2021 for transaction.',
       },
     ],
   },
@@ -697,7 +702,33 @@ export const Content130DataSource7 = {
     ],
   },
 };
-
+export const Content130DataSource8 = {
+  OverPack: {
+    className:
+      'home-page-wrapper content13-wrapper home-page-wrapper content13-wrapper jnwq7vhwgqg-editor_css',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      { name: 'title', children: '', className: 'title-h1' },
+      {
+        name: 'content',
+        children: (
+          <div>
+           <video className="page-video" src="https://storage.googleapis.com/dovefund.xyz/video.mp4" controls="controls"></video>
+          </div>
+        ),
+        className: 'title-content',
+      },
+      // {
+      //   name: 'content2',
+      //   children: '现场问诊，为你答疑解难',
+      //   className: 'title-content',
+      // },
+    ],
+  },
+};
 export const Content120DataSource = {
   wrapper: { className: 'home-page-wrapper content12-wrapper' },
   page: { className: 'home-page content12' },
